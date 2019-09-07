@@ -2603,23 +2603,6 @@ PennController("experiment" ,
 	       
 )
 ;
-PennController("experiment" ,
-	    defaultText
-	        .print(),
-	       newText ("<p> Let's get acquainted with the group of dogs. </p>")
-	    ,
-	                  
-	     newImage ("threedogs", "threedogs.png")
-               .print ()
-	       ,
-	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
-		.play()
-		,
-	       newKey(" ")
-        .wait()
-	       
-	      )	
-;
 PennController.SendResults( "send" );
 PennController( "final" ,
 	       newText ("<p> Thank you for your participation! The survey code for MTurk is: z4xw23. Please copy-paste it to MTurk. </p>")
