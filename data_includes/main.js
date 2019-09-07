@@ -1048,7 +1048,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Very well. Yes, the shadow belongs to a dog indeed. It could be one of the three dogs you saw in the beginning.</p>")
 	         ,         
-	     newImage ("threedogs1.png")
+	     newImage ("threedogs.png")
                .print ()
 	       ,
 	       newKey(" ")
@@ -1448,7 +1448,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Let's get acquainted with the group of dogs. </p>")
+	       newText ("<p> Let's get acquainted with the group of cows. </p>")
 	    ,
 	                  
 	     newImage ("threecows", "threecows.png")
