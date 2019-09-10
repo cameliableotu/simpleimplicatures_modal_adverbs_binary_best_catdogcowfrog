@@ -1078,7 +1078,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Now let's see what the baby dragon has to say about the shadow and reward him. </p>")
+		newText ("<p> Now let's see what the baby dragon has to say about the shadow. </p>")
 	       ,
 		newImage ("dogshadowonedogonstage", "dogshadowonedogonstage.png")
                .print ()
@@ -1087,6 +1087,8 @@ PennController ("experiment",
 		.play()
 		,
 		newText ("<p> Baby Dragon: It is possible that it is the red dog.</p>")
+		,
+		newText ("<p> How will you reward the baby dragon? </p>")
 		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
@@ -1491,7 +1493,7 @@ PennController("experiment" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Let's take a look at the shadow, and see what the baby dragon says.</p>")
+		newText ("<p> Let's see what the baby dragon says about the shadow.</p>")
 		,
 		newImage ("cowshadowallcows","cowshadowallcows.png")
                .print ()
@@ -1734,6 +1736,8 @@ PennController ("experiment",
 		,
 		newText ("<p> Baby Dragon: It is certain that it is the orange cow.</p>")
 		,
+		newText ("<p> How will you reward the baby dragon? </p>")
+		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -1860,7 +1864,7 @@ PennController("experiment" ,
 	          ,    
 	       newText ("<p> So the shadow is not the yellow cow! And it is not the orange cow! </p>")	
     ,
-      newImage ("cowshadowonecowonstage", "cowshadowonecowonstage.png")
+      newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
          .print()
 	       ,
 	       	newAudio("cowsounds2sec", "cowsounds2sec.mp3")
@@ -2444,7 +2448,7 @@ PennController("experiment" ,
       newImage ("frogshadowtwofrogsonstage", "frogshadowtwofrogsonstage.png")
          .print()
 	       ,
-	       	newAudio("frogsoundsshort", "frogsoundsshort.mp3")
+	       	newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
